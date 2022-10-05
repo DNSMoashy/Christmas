@@ -1,0 +1,98 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: url(./../assets/blurtree.jpg);
+}
+
+header, body {
+    background-color: rgba(5, 114, 49, .5);
+    min-width: none;
+    max-width: fit-content;
+}
+
+header {
+    width: 400px;
+    margin: 4px auto;
+    text-align: center;
+}
+
+.hdimg {
+    border-style: dotted;
+    border-color:rgb(99, 9, 9)
+}
+
+h1 {
+    background-color: rgba(239, 157, 56, 0.5);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+h2 span {
+    background-color: rgba(239, 157, 56, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 2px;
+}
+
+body {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgba(5, 114, 49, .5);
+    font-size: larger;
+}
+    
+article {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgba(239, 157, 56, 0.5);
+    max-width: 400px;
+    max-height: 200px;
+    overflow: auto;
+    margin: 4px;
+}
+
+.article1 {
+    margin-bottom: 2px;
+}
+
+.direction {
+    margin: 2px;
+}
+
+.article2 {
+    max-height: 200px;
+}
+
+a span {
+    color: black;
+    
+}
+
+#button1 , #button2 {
+    display: inline-block;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    background-color: rgba(255, 136, 0, 0.7);
+    border-style: outset;
+    border-color: rgb(99, 9, 9);
+    font-family: cursive;
+    position: relative;
+    
+}
+
+a:hover {
+    background-color: rgba(255, 226, 189, 0.8);
+}
