@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+img.one {
+    position: absolute;
+    top: 610px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    height: 1000px;
+    width: 1000px;
+}
+
+
+.top {
+    text-align: center;
+    background-color: rgba(253, 255, 127, .5);
+    color: azure;
+    margin: 0, auto;
+    width: 200px;
+}
+
+body {
+    background-image: url(../assets/christmas.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+table, th, td {
+    border-style: inset;
+    border-width: 5px;
+    border-color: rgb(116, 7, 7);
+    position: relative;
+    z-index: .8;
+    table-layout: auto;
+    max-width: 550px;
+}
+
+div {
+    margin: 0% auto;
+    max-width: fit-content;
+}
+
+.key {
+    position: fixed;
+    width: 150px;
+    height: 200px;
+    top: 150px;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(186, 220, 144);
+}
+
+.list {
+    top: 150px;
+    margin: 0, auto;
+    width: 600px;
+    background-color: rgb(186, 220, 144);
+}
+
+a {
+    color:rgb(15, 89, 19);
+}
+
+.button {
+    text-decoration: none;
+    background-color: rgba(212, 168, 39, .5);
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgb(116, 7, 7);
+    display: inline-block;
+}
+
+a:hover {
+    color: rgb(253, 255, 127);
+}
+
+.button:hover {
+    background-color: rgba(99, 9, 9, .8);
+}
+
+footer {
+    position: absolute;
+    top: 870px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    height: 50px;
+    width: 100px;
+}

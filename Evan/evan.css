@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    background-color: rgba(157, 230, 230, .5);
+}
+
+h1 {
+    font-family: 'Creepster', cursive;
+    color: rgb(55, 1, 1);
+}
+
+header h3 {
+    z-index: .8;
+    color: rgb(55, 1, 1);
+    background-color: rgba(157, 230, 230, .5);
+    position: absolute;
+    font-family: 'Creepster', cursive;
+    font-size: 30px;
+    font-weight: 80px;
+    transform: translate(-50%, -50%);
+    top: 300px;
+    left: 970px;
+    background-image: url(../assets/finger.png);
+    background-size: 300px, 300px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    padding-top: 180px;
+    text-align: center;
+}
+
+
+.gif {
+    position: absolute;
+    top: 400px;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    height: 1000px;
+    width: 1000px;
+}
+
+body {
+    background-image: url(../assets/cembg.gif);
+    background-color: blue;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.key {
+    background-color: aquamarine;
+}
+
+.list {
+    background-color: blueviolet;
+    border-color: black;
+    border-style: inset;
+}
+
+table, th, td {
+    border-style: inset;
+    border-width: 5px;
+    border-color: rgb(116, 7, 7);
+    position: relative;
+    z-index: .8;
+    table-layout: auto;
+    max-width: 550px;
+}
