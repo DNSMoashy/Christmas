@@ -48,8 +48,10 @@ body {
 
 
 .key {
-    position: absolute;
-    left: 200px;
+    position: fixed;
+    top: 150px;
+    left: 15%;
+    transform: translate(-50%, -50%);
     border-style: inset;
     border-width: 13px;
     border-color: rgba(15, 75, 8, 0.8);
@@ -95,8 +97,9 @@ a span {
     border-color: rgb(99, 9, 9);
     font-family: cursive;
     position: absolute;
+    transform: translate(-50%, -50%);
     top: 1150px;
-    left: 880px;
+    left: 60%;
     display: inline-block;
 }
 .buttono {
@@ -107,7 +110,8 @@ a span {
     font-family: cursive;
     position: absolute;
     top: 1150px;
-    left: 800px;
+    left: 50%px;
+    transform: translate(-50%, -50%);
     display: inline-block;
 }
 
